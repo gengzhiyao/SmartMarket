@@ -1,0 +1,43 @@
+RC522              STM32C8T6          //读卡器 
+CS (SDA)			PB0			SPI1_NSS	Chip select for SPI
+SCK				PA5			SPI1_SCK	Serial Clock for SPI
+MOSI			PA7 			SPI1_MOSI	Master In Slave Out for SPI
+MISO			PA6			SPI1_MISO	Master Out Slave In for SPI
+IRQ				-			Irq
+GND				GND			
+RST				3.3V			
+VCC				3.3V		
+
+	
+SG90              STM32C8T6         //舵机
+GND				GND				
+VCC				5V
+信号线                      PA1          PWM输出信号
+
+
+8266-01s       STM32C8T6        //WIFI模块
+GND				GND				
+VCC				3.3V
+RX                            PA9         TX
+TX                            PA10       RX
+
+
+GPS模块       STM32C8T6     
+GND				GND				
+VCC				5V
+TX                            PA3          RX
+
+
+DTH11        STM32C8T6         //温湿度模块
+GND				GND				
+VCC				3.3V
+data                         PA0
+
+蜂鸣器         STM32C8T6
+GND				GND				
+VCC				3.3V
+I/O                           PA2
+
+
+
+
